@@ -73,7 +73,7 @@
 
         links.forEach(function (link) {
           const anchor = document.createElement("a");
-          anchor.href = link.url;
+          anchor.href = "/HTML-TUTORIALS" + link.url; // Added 'HTML-TUTORIALS/' prefix
           anchor.textContent = link.title;
           linksContainer.appendChild(anchor);
         });
